@@ -1,0 +1,152 @@
+@import url(stile.css);
+
+.menu_editar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 0, 0);
+   
+}
+
+h1{
+    color: var(--color-primary3);
+    text-shadow: 0 0 10px var(--color-primary3),
+                 0 0 20px var(--color-primary3),
+                 0 0 40px var(--color-primary3),
+                 0 0 80px var(--color-primary3);
+    font-family: 'poppins';
+    margin-top: -30px;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgba(255, 0, 0, 0.222);
+    align-items: center;
+    justify-content: center;
+}
+
+.odio20 {
+   width: 80%;
+   position: relative;
+   border-bottom: 2px solid var(--color-primary3);
+}
+
+input{
+    font-size: 16px;
+    color: var(--color-primary3);
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 60px;
+    line-height: 1.2;
+    padding-left: 60px;
+    margin-top: 5px;
+}
+
+.mecha-sonic{
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: rgb(255, 255, 255);
+
+}
+
+
+header{
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+.texto-maneiro{
+    margin-left: 10%;
+    margin-top: -115%;
+
+}
+
+li{
+    text-align: left;
+    margin-top: 12px;
+    list-style: none;
+    width: 100%;
+    height: 30%;
+    justify-content: space-around;
+} 
+
+.btn-cadastrar-editar{
+    width:170%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: var(--color-primary3);
+    margin-top: 135px;
+   
+}
+
+.btn-listar-editar{
+    width: 170%;
+    height: 60%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: var(--color-primary3); 
+}
+
+.btn-cadastrar-editar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn-cadastrar-editar a:hover{
+    color: rgb(255, 255, 0);
+}
+
+.btn-listar-editar a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+.btn-listar-editar a:hover{
+    color: rgb(255, 255, 0);
+}
+
+.amy20{
+    width: 50%;
+    height: 90%;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.omega20{
+    margin-left: 60%;
+    width: 20%;
+    height: 55px;
+    border-radius: 10px;
+    background-color:var(--color-primary3);
+}
+
+.omega20 input{
+    color: yellow;
+    margin-left: -36%;
+    margin-top: -5%;
+} 
+
+.iblis20{
+    margin-left: 15%;
+}

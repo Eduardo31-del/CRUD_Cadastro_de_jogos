@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+
+    --color-primary1:#377feb;
+    --color-primary2:rgba(15, 76, 241, 0.775);
+    --color-primary3:#dd3838;
+    --color-primary4:#eee30f;
+    --color-primary5:rgb(128, 185, 247);
+
+    --color-neutra0:#ffffff9f;
+    --color-neutra1:#0d0d0d;
+}
+

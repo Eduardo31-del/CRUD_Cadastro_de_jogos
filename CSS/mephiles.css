@@ -1,0 +1,166 @@
+@import url(stile.css);
+
+.menu_cadastrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue ; */
+    background-color: black;
+   
+}
+
+h1{
+    color: blue;
+    text-shadow: 0 0 10px blue,
+                 0 0 20px var(--color-primary2),
+                 0 0 40px blue,
+                 0 0 80px blue;
+    font-family: 'poppins';
+    
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgba(245, 245, 245, 0.222);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.odio input{
+    color: rgb(255, 255, 0); 
+    border: 2px solid transparent;
+    backdrop-filter: blur(3px);
+}
+
+.odio input::placeholder{
+    color: yellow;
+}
+
+.cabecario_cadastrar{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    height: 30%;
+}
+
+li{
+ 
+    margin-top: 12px;
+    list-style: none;
+    width: 100%;
+    height: 30%;
+    justify-content: space-around;
+} 
+
+.btn_cadastrar_principal{
+    width: 115%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: var(--color-primary2);
+    margin-top: 135px;
+   
+}
+
+.btn_listar_principal{
+    width: 115%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: -100px;
+    background-color: var(--color-primary2); 
+}
+
+.btn_cadastrar_principal a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.btn_cadastrar_principal a:hover{
+    color: rgb(255, 255, 0);
+}
+
+
+.btn_listar_principal a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.btn_listar_principal a:hover{
+    color: rgb(255, 255, 0);
+}
+
+.amy{
+    width: 50%;
+    height: 90%;
+    background-color: transparent;
+    border-radius: 10px;
+    
+    
+
+}
+
+.omega{
+    margin-left: 60%;
+    width: 20%;
+    height: 55px;
+    border-radius: 10px;
+    background-color:var(--color-primary2);  
+    
+}
+
+.omega input{
+    color: yellow;
+    margin-left: -42px;
+    margin-top: -8px;
+}
+
+.texto-da-hora{
+    margin-left: 15%;
+    margin-top: -105%;
+}
+
+
+.odio {
+    width: 80%;
+    position: relative;
+    border-bottom: 2px solid var(--color-primary1);
+}
+ 
+input{
+     font-size: 16px;
+     color: var(--color-primary1);
+     width: 100%;
+     background-color: transparent;
+     border: none;
+     outline: none;
+     height: 60px;
+     line-height: 1.2;
+     padding-left: 60px;
+     margin-top: 5px;
+ }
+ 
+.metal-sonic{
+     pointer-events: none;
+     position: absolute;
+     display: block;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     color: rgb(255, 255, 255);
+ 
+}
