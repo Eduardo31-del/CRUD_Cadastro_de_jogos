@@ -5,7 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(2, 0, 0);
+    background-image: url(../IMG/galãsentado.jpg);
+    background-repeat: no-repeat;
    
 }
 
