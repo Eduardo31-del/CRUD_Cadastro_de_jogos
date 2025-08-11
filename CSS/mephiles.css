@@ -120,11 +120,16 @@ li{
     height: 55px;
     border-radius: 10px;
     background-color:var(--color-primary2);  
-    
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.omega:hover{
+    transform: translateY(-2px);
 }
 
 .omega input{
-    color: yellow;
+    color: var(--color);
     margin-left: -42px;
     margin-top: -8px;
 }
@@ -152,7 +157,7 @@ input{
      line-height: 1.2;
      padding-left: 60px;
      margin-top: 5px;
- }
+}
  
 .metal-sonic{
      pointer-events: none;
@@ -162,6 +167,6 @@ input{
      height: 100%;
      top: 0;
      left: 0;
-     color: rgb(255, 255, 255);
+     color: var(--color-primary2);
  
 }

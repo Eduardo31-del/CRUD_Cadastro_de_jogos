@@ -38,37 +38,37 @@
             <form method="POST" action="sonic.php">
                 <div class="odio">
                     <input type="text" name="nome" id="nome" placeholder="Digite o nome do jogo do sonic">
-                    <span class= "metal-sonic">Nome</span>
+                    <span class= "metal-sonic">Nome:</span>
                 </div>
                 <br>
                 <div class="odio">
                     <input type="text" name="sinopse" id="sinopse" placeholder="Escreva a sinopse">
-                    <span class= "metal-sonic">sinopse</span>
+                    <span class= "metal-sonic">Sinopse:</span>
                 </div>
                 <br>
                 <div class="odio">
                     <input type="text" name="quant_vendas" id="quant_vendas" placeholder="Digite a quantidade de vendas">
-                    <span class= "metal-sonic">quant_vendas</span>
+                    <span class= "metal-sonic">Quant_vendas:</span>
                 </div>
                 <br>
                 <div class="odio">
                     <input type="text" name="valor" id="valor" placeholder="Coloque o valor">
-                    <span class= "metal-sonic">valor</span>
+                    <span class= "metal-sonic">Valor:</span>
                 </div>
                 <br>
                 <div class="odio">
                     <input type="text" name="avaliacao" id="avaliacao" placeholder="Deixe sua avaliaçao">
-                    <span class= "metal-sonic">avaliação</span>
+                    <span class= "metal-sonic">Avaliação:</span>
                 </div>
                 <br>
                 <div class="odio">
                     <input type="text" name="data_lanca" id="data_lanca" placeholder="Data de lançamento">
-                    <span class= "metal-sonic">data de lançamento</span>
+                    <span class= "metal-sonic">Data de lançamento:</span>
                 </div>
                 <br>
                 <div class="odio">
                     <input type="text" name="produtora" id="produtora" placeholder="Coloque a produtora do jogo">
-                    <span class= "metal-sonic">produtora</span>
+                    <span class= "metal-sonic">Produtora:</span>
                 </div>
                 <br>
                 <button class="omega">
