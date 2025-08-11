@@ -72,6 +72,8 @@ li{
     border-radius: 10px;
     background-color: var(--color-primary2);
     margin-top: 135px;
+    cursor: pointer;
+    transition: all 0.3s ease;
    
 }
 
@@ -81,6 +83,8 @@ li{
     border-radius: 10px;
     margin-top: -100px;
     background-color: var(--color-primary2); 
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .btn_cadastrar_principal a{
@@ -93,6 +97,11 @@ li{
     color: rgb(255, 255, 0);
 }
 
+.btn_cadastrar_principal:hover{
+    transform: translateY(-2px);
+
+}
+
 
 .btn_listar_principal a{
     text-decoration: none;
@@ -102,6 +111,11 @@ li{
 
 .btn_listar_principal a:hover{
     color: rgb(255, 255, 0);
+}
+
+.btn_listar_principal:hover{
+    transform: translateY(-2px);
+
 }
 
 .amy{
